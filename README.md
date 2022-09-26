@@ -9,7 +9,7 @@ Api para criação de corridas
 Recebe um body com informações do usuário (username, password, name) cria usuário que será utilizado para realizar requisições na api.
 
 #### Exemplo:
-![Alt text](readmeAssets/signIn.png "SignIn")
+<p align="center"><img src='./readmeAssets/signIn.png'></p>
 
 ```curl
 curl -X POST \
@@ -28,6 +28,7 @@ curl -X POST \
 Recebe um body com informações do usuário (username, password) e retorna o token de autenticação utilizado para realizar requisições na api.
 
 #### Exemplo:
+<p align="center"><img src='./readmeAssets/login.png'></p>
 
 ```curl
 curl -X POST \
