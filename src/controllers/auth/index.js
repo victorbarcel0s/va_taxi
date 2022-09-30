@@ -11,7 +11,7 @@ function verifyJWT(req, res, next) {
       .json({ auth: false, message: "Nenhum token definido" });
   try {
     const userDecoded = jwt.verify(token, JWT_SECRET);
-    req.userDecoded = userDecoded;
+    req.authUser = userDecoded;
     next();
   } catch (error) {
     return res.status(500).json({
