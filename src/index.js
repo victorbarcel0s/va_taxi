@@ -9,7 +9,7 @@ const tripController = require("./controllers/trips");
 app.use(express.json());
 
 app.get("/", (req, res) => res.send("Api vá de taxi"));
-app.listen(port, () => console.log(`Running in http://localhost/${port}`));
+app.listen(port, () => console.log(`Running in http://localhost:${port}`));
 
 app.post("/users/create", userController.createUser);
 app.post("/login", userController.login);
