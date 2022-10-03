@@ -63,7 +63,7 @@ Recebe um body com informações necessárias para a realização da viagem (loc
 curl -X POST \
   'localhost:3000/trips/create' \
   --header 'Accept: */*' \
-  --header 'x-access-token: [token]' \
+  --header 'x-access-token: {token}' \
   --header 'Content-Type: application/json' \
   --data-raw '{      "location": "-22.884048671727754, -43.5569031632711",
       "destiny": "-22.879452166019192, -43.46627231737502",
