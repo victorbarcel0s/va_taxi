@@ -1,6 +1,16 @@
 # Vá de taxi
 
 Api para criação de corridas
+## Porque NodeJs com express?
+Como a aplicação se trata de algo não muito complexo e um serviço pequeno, utilizei essas tecnologias por acreditar que seria o ideal para um desenvolvimento rápido e estável, tendo em vista também a simplicidade do código
+## Instruções de uso
+
+Para executar a api sem o container precisamos rodar o comando "npm i" para instalar as dependecias do projeto e após isso, executar o comando "npm run dev" para levantar o serviço na porta 3000 do ip local da máquina
+
+Para executar a partir do container, execute o comando docker 'docker build . -t user/va-de-taxi' e depois execute o comando 'docker run user/va-de-taxi'
+
+Ou pegue o container do dockerhub (está público) e execute o comando 'docker run victorbcls/va-de-taxi'
+https://hub.docker.com/r/victorbcls/va-de-taxi
 
 ## Endpoints
 
