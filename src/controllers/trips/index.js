@@ -16,7 +16,6 @@ async function createTrip(req, res) {
         };
       }
     }
-    console.log(trip);
     await Trip.create({
       username: req.authUser.username,
       location: trip.location,
